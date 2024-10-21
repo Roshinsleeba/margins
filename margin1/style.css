@@ -1,0 +1,42 @@
+.circle-container {
+    width: 194px; 
+    height: 194px;
+    background-color: green;
+    border-radius: 50%; 
+    border-color: lightgreen;
+    border-style:double;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+  }
+  
+  .circle {
+    width: 50%;
+    height: 50%;
+    background-color: green; 
+    border: 10px solid white; 
+    border-radius: 50%;
+
+    
+    
+  }
+    
+  .square{
+    width:200px;
+    height: 200px;
+    background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+  
+    
+  }
